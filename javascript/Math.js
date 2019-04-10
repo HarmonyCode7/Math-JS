@@ -29,7 +29,7 @@ function autorun()
     let circle1 = c1.Draw("black", "transparent", "3");
     PointCursor();
     canvas.appendChild(pointCircle);
-    canvas.appendChild(circle1);+
+    canvas.appendChild(circle1);
     PointCursor();
     //let circle = document.getElementsByTagNameNS("http://www.w3.org/2000/svg","circle");  
     let changedSize = ChangeSize(canvas, canvas_control, dimension_selection);
