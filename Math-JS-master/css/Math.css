@@ -1,0 +1,66 @@
+body
+{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.draggable
+{
+    cursor: move;
+}
+.title
+{
+    font-family: "Michroma";
+}
+.heading3
+{
+    font-size: 13px;
+    color: white;
+}
+.shapes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border: 1px solid orange;
+    padding: 1rem;
+    max-width: 1000px;
+}
+/*
+.canvas , .shape-controls
+{
+    display: inline-block;
+}
+*/
+.shape-controls
+{
+    border: 1px solid blue;
+    padding: 1rem;
+    background: #001628;
+    width: 100%;
+    height: 100%;
+}
+.canvas
+{
+    background: white;
+    border: 1rem inset #ccc;
+}
+.container
+{
+    margin: 1rem;
+    padding: 1rem;
+    background: #bbb;
+}
+
+.shape-controls
+{
+    padding: 1rem;
+    width: 100%;
+    max-width: 200px;
+}
+.shape-controls button
+{
+   padding: 1rem;
+   background: green;
+}
